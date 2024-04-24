@@ -1,0 +1,63 @@
+*{ 
+    background-image: url("https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+body {
+    font-family: Arial, sans-serif;
+        background-image: url("https://media.istockphoto.com/id/1419117748/photo/old-wall-texture-cement-dirty-gray-with-black-background-abstract-grey-and-silver-color.webp?b=1&s=170667a&w=0&k=20&c=KI-m7WiMl2YDY5nSyAxxsta5ZPwjY1x6WwSCRdZq-VA=");
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    background-color: #b88080;
+    border: 3px solid black; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f0f0f0;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  input {
+    color: rgb(241, 237, 237);
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: large;
+    border: 2px solid #1b1919;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #f0eded;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
